@@ -1,0 +1,111 @@
+/*form stylesheet*/
+body {
+  background: url(.//Javascript/image2.png) center center repeat;
+  background-size: cover;
+}
+form {
+  margin-bottom: 200px;
+}
+
+#container {
+  background: url(./Javascript/image2.png) center center repeat;
+  background-size: cover;
+  top: left;
+  width: 550px;
+  /* height: 400px; */
+  margin: 80px auto 40px;
+  padding: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 10px black;
+}
+form {
+  border: solid 5px #000;
+}
+
+#container form,
+label,
+input,
+select,
+button {
+  background: darkgrey;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  width: 90%;
+  font-size: 14px;
+  border-radius: 30px;
+}
+button {
+  background-color: green;
+  color: black;
+  width: 30%;
+  border-radius: 30px;
+}
+button:hover {
+  background: black;
+  color: blue;
+  box-shadow: 5px 5px 6px darkcyan;
+  cursor: pointer;
+  right: 3px;
+}
+button:active {
+  color: dimgray;
+  cursor: progress;
+  top: 5px;
+  transform: rotate(30deg);
+}
+#end {
+  color: black;
+  text-align: center;
+  font-style: oblique;
+  border: 5px solid darksalmon;
+  background-color: darksalmon;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#end:hover {
+  background-color: green;
+  box-sizing: border-box;
+  box-shadow: 3px 6px 9px black;
+  caret-color: white;
+  font-size: 14px;
+}
+
+#clear {
+  background-color: red;
+  color: black;
+  width: 30%;
+  border-radius: 30px;
+  display: inline-block;
+  float: inline-end;
+}
+#claer:hover {
+  background: red;
+  color: red;
+  box-shadow: 5px 5px 6px red;
+  cursor: pointer;
+  right: 3px;
+}
+#clear:active {
+  color: dimgray;
+  cursor: progress;
+  bottom: 5px;
+}
+
+.page {
+  color: black;
+  text-align: end;
+  display: block;
+}
+#box {
+  background: url(./Javascript/image2.png) center center repeat;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+h2 {
+  color: black;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  margin-bottom: 40px;
+}
