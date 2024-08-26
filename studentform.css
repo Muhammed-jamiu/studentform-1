@@ -1,4 +1,5 @@
 /*form stylesheet*/
+
 body {
   background: url(.//Javascript/image2.png) center center repeat;
   background-size: cover;
@@ -8,7 +9,7 @@ form {
 }
 
 #container {
-  background: url(./Javascript/image2.png) center center repeat;
+  /* background: url(./Javascript/image2.png) center center repeat; */
   background-size: cover;
   top: left;
   width: 550px;
@@ -54,6 +55,11 @@ button:active {
   top: 5px;
   transform: rotate(30deg);
 }
+
+.btn-con {
+  display: flex;
+  justify-content: space-between;
+}
 #end {
   color: black;
   text-align: center;
@@ -71,13 +77,37 @@ button:active {
   font-size: 14px;
 }
 
+#close {
+  position: absolute;
+  top: 235px;
+  left: 175px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#close:hover {
+  cursor: pointer;
+}
+#message {
+  border: 2px solid gainsboro;
+  position: absolute;
+  width: 50%;
+  height: 30px;
+  top: 216px;
+  right: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 2px;
+}
 #clear {
   background-color: red;
   color: black;
   width: 30%;
   border-radius: 30px;
   display: inline-block;
-  float: inline-end;
+  color: white;
 }
 #claer:hover {
   background: red;
